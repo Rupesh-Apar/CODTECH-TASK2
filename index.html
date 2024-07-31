@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Weather Forecast</h1>
+    <select id="locationSelect">
+      <option value="newyork">New York</option>
+      <option value="london">London</option>
+      <option value="tokyo">Tokyo</option>
+    </select>
+    <div id="weatherInfo">
+      <h2>Location: <span id="locationName"></span></h2>
+      <p>Temperature: <span id="temperature"></span> °C</p>
+      <p>Condition: <span id="condition"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
